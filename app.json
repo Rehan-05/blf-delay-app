@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "BLF Delay App",
+    "slug": "blf-delay-app",
+    "version": "1.0.1",
+    "orientation": "landscape",
+    "icon": "./assets/delay-app.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/delay-app.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/delay-app.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.blf.delay_app",
+      "enablePlayAppSigning": true
+    },
+    "web": {
+      "favicon": "./assets/delay-app.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "485be469-19c5-4b16-9087-0c904916ced9"
+      }
+    },
+    "owner": "rehan105",
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "LANDSCAPE"
+        }
+      ]
+    ]
+  }
+}

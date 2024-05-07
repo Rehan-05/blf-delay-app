@@ -1,0 +1,46 @@
+{
+  "name": "delay_app_page",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.17.0",
+    "@react-native-async-storage/async-storage": "^1.22.0",
+    "@react-native-community/datetimepicker": "^7.6.2",
+    "@react-native-community/netinfo": "11.1.0",
+    "@react-native-picker/picker": "^2.6.1",
+    "axios": "^1.6.7",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.4.3",
+    "expo": "~50.0.4",
+    "expo-camera": "~14.0.3",
+    "expo-device": "~5.9.4",
+    "expo-file-system": "~16.0.9",
+    "expo-image-picker": "^14.7.1",
+    "expo-screen-orientation": "~6.4.1",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "react-native-base64": "^0.2.1",
+    "react-native-date-picker": "^4.3.5",
+    "react-native-element-dropdown": "^2.10.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-image-picker": "^7.1.0",
+    "react-native-quick-base64": "^2.1.1",
+    "react-native-size-matters": "^0.4.2",
+    "react-native-svg": "^14.1.0",
+    "react-native-uuid": "^2.0.2",
+    "rn-fetch-blob": "^0.12.0",
+    "timers": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
